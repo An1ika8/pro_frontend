@@ -1,0 +1,39 @@
+.add-member-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.add-member-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-member-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.add-member-container select,
+.add-member-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-member-container button {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-member-container button:hover {
+    background-color: #218838;
+}

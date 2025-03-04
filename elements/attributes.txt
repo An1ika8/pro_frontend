@@ -1,0 +1,25 @@
+ project_detailss{
+     project_id,
+     projects_name,
+     intro,
+     owner,
+     status,
+     start_time,
+     end_time,
+ }
+
+ user{
+     user_id ,
+     username,
+     email,
+     password,
+
+ }
+
+ project_members{
+     project_id,
+     added_by,
+     user_id,
+     role
+ }
+
